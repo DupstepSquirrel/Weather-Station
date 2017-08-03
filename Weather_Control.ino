@@ -251,7 +251,7 @@ void printTime()                           //printing of date and time
 
 void setRTCTime()
 {
-  DateTime dt(2017, 7, 28, 9, 35, 40, 5);   // Year, Month, Day, Hour, Minutes, Seconds, Day of Week
+  DateTime dt(2017, 8, 2, 11, 16, 20, 3);   // Year, Month, Day, Hour, Minutes, Seconds, Day of Week
   rtc.setDateTime(dt);                      //Adjust date-time as defined 'dt' above 
 }
 
